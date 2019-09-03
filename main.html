@@ -21,18 +21,32 @@
 </head>
 
 <body>
-    <div class="container-fluid h-100">
+    <div class="bar bg-color-right">
+        <span>
+            <h1 class="bar-text">Interactive interview</h1>
+            <h4 class="bar-text">Hire me!</h4>
+        </span>
+    </div>
+    <div class="container-fluid interactive-part">
         <div class="row h-100">
             <div class="col-md-6 bg-color-left no-padding">
                 <div class="window left-text bg-color-right">
                     <div class="container">
-                        <h1>Interactive interview</h1>
+
                     </div>
                 </div>
-                <div class="console left-text bg-color-left">Console</div>
+                <div class="console left-text bg-color-left">
+                    <h2>Console</h2>
+                    <ol class="chapters-list">
+                        <li><p class="chapters-item" onclick="changeRightSide('Introduction')">Introduction</p></li>
+                        <li><p class="chapters-item" onclick="changeRightSide('Projects')">Projects</p></li>
+                        <li><p class="chapters-item" onclick="changeRightSide('Education')">Backstory</p></li>
+                    </ol>
+                </div>
+
             </div>
             <div class="col-md-6 bg-color-right">
-                <p class="blue-text">Laa</p>
+                <p class="blue-text" id="right-heading">Right side</p>
             </div>
 
         </div>

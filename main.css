@@ -18,16 +18,42 @@ body, html {
     color: white;
 }
 
+.interactive-part {
+    height: 94%;
+}
+
+.bar {
+    height: 6%;
+    background: black;
+    color: white;
+}
+
+.bar-text {
+    display: inline;
+}
+
 .window {
-    height: 70%;
+    height: 60%;
     background: coral;
 }
 
 .console {
-    height: 30%;
+    height: 40%;
     background: darkslategray;
+    padding: 10px;
+    font-family: Courier New, Courier, monospace
 }
 
 .no-padding {
     padding: 0px;
+}
+
+.chapters-list {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.chapters-item:hover {
+    color: yellow;
+    cursor:pointer;
 }
