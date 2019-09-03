@@ -60,23 +60,15 @@
             </div>
             <div class="col-md-6 bg-color-right">
                 <p class="blue-text" id="right-heading">Welcome</p>
-                <script>
-                    $(document).ready(function () {
-                        $("button").click(function () {
-                            $("#div1").load("intro.html");
-                        });
-                    });
-                </script>
-                <div id="div1">
-                    <h2>Let jQuery AJAX Change This Text</h2>
+                <div class="container-fluid bg-color-left" id="right-content">
+                    <script>
+                        document.getElementById("right-content").innerHTML = '<object type="text/html" data="guide.html" ></object>';
+                    </script>
                 </div>
-                <button>Get External Content</button>
             </div>
-            <script>
-            document.getElementById("div1").innerHTML='<object type="text/html" data="intro.html" ></object>';
-            </script>
-            
-            
+
+
+
         </div>
     </div>
 </body>
