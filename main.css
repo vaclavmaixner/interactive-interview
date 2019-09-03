@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+  }
+
+.bg-color-left {
+    background: darkturquoise;
+}
+
+.bg-color-right {
+    background: #1D1B1B;
+}
+
+.blue-text {
+    color: darkturquoise;
+}
+
+.left-text {
+    color: white;
+}
+
+.window {
+    height: 70%;
+    background: coral;
+}
+
+.console {
+    height: 30%;
+    background: darkslategray;
+}
+
+.no-padding {
+    padding: 0px;
+}
